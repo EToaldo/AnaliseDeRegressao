@@ -1,6 +1,6 @@
-#Aula 11/03 - UFSM00417
+# Aula 11/03 - UFSM00417
 
-#Criando Dados
+# Criando Dados
 
 anos <- c(2,3,4,5,4,6,7,8,8,10)
 clientes<-c(48,50,56,52,43,60,62,58,64,72)
@@ -9,11 +9,11 @@ clientes<-c(48,50,56,52,43,60,62,58,64,72)
 
 plot(anos, clientes, xlab = "Anos de Serviço", ylab = "Número de Clientes")
 
-#Correlação
+# Correlação
 
 cor(anos, clientes)
 
-#Criando e Verificando a Matriz
+# Criando e Verificando a Matriz
 M <- cbind(anos, clientes, (anos*clientes))
 print(M)
 
